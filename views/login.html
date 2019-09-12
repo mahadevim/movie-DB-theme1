@@ -1,0 +1,72 @@
+
+<div class="wrapper">   
+<div class="overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 parent" align="center">
+                <div class="row child">
+                <h2 align="center" class="form-head">Welcome</h2>
+                    <div class="form-body">
+                        <div class="tab-content">
+                            <div id="sectionA" class="tab-pane fade in active">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="social-login">
+                                        <ul>
+                                            <li><a href="" ng-click="authenticate('facebook')">Log in with Facebook<i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="">Log in with Twitter<i class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="innter-form">
+                                        <form class="sa-innate-form" ng-submit="formSubmit()" method="post">
+                                            <input type="text" name="username" ng-model="username" placeholder="Email or Username" required>
+                                            <input type="password" name="password" ng-model="password" placeholder="Password" required>
+                                            <button type="submit">Log In</button>
+
+                                            <a href="">I Forget</a>
+                                            <p class="text-danger">{{ error }}</p>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="nav nav-tabs final-login">
+                                        <a data-toggle="tab" href="#sectionB">Need an account?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sectionB" class="tab-pane fade">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="social-login">
+                                        <ul>
+                                            <li><a href="">Log in with Facebook<i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="">Log in with Twitter<i class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="innter-form">
+                                        <form class="sa-innate-form" method="post">
+                                            <input type="text" name="username" placeholder="Name">
+                                            <input type="text" name="username" placeholder="Email">
+                                            <input type="password" name="password" placeholder="Password">
+                                            <button type="submit">Join now</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="nav nav-tabs final-login">
+                                        <a data-toggle="tab" href="#sectionA">Have an account?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+

@@ -1,0 +1,28 @@
+{
+  "name": "Movie-DB-theme",
+  "homepage": "https://github.com/anjaligm/Movie-DB-theme",
+  "authors": [
+    "anjaligm <kkmahalakshmi24@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "angularjs-social-login": "^2.4.5",
+    "ng-facebook": "^0.1.6"
+  }
+}
